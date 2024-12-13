@@ -1,0 +1,114 @@
+/* LoginStyle.css */
+
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the buttons horizontally */
+    gap: 10px; /* Reduced gap between buttons */
+    margin-top: 20px;
+}
+
+.button {
+    width: 80%; /* Optional: makes the button width more consistent and centered */
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.create-account {
+    background-color: #007BFF;
+}
+
+.create-account:hover {
+    background-color: #0069d9;
+}
+.page-components {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+}
+
+.login-card {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+
+.create-account {
+    background-color: #007BFF;
+}
+
+.create-account:hover {
+    background-color: #0069d9;
+}
+
