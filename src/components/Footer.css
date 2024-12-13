@@ -1,0 +1,51 @@
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-item {
+  text-align: left;
+}
+
+.footer-item h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ff9900;
+}
+
+.footer-item ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-item ul li {
+  margin-bottom: 8px;
+}
+
+.footer-item ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-item ul li a:hover {
+  color: #ff9900;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-container {
+    grid-template-columns: 1fr; /* Stacks items vertically on smaller screens */
+  }
+}

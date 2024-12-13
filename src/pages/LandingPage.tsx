@@ -1,13 +1,9 @@
 import React from 'react';
-import './pages/style/LandingPage.css';
+import './style/LandingPage.css';
 
-import WallImage from '../public/wallA.jpeg';
+import WallImage from "/WallA.jpeg";
 
-interface LandingPageProps {
-    onLogin: () => void; // Define the onLogin prop
-}
-
-const LandingPage: React.FC<LandingPageProps> = ({ onLogin }) => {
+const LandingPage: React.FC = () => {
     return (
         <>
             {/* Section 1 - Full-Width Image with Text Below */}
@@ -50,11 +46,6 @@ const LandingPage: React.FC<LandingPageProps> = ({ onLogin }) => {
                         </ul>
                     </div>
                 </div>
-            </div>
-            
-            {/* Login Button */}
-            <div className="button-container">
-                <button onClick={onLogin} className="login-button">Login</button>
             </div>
         </>
     );
